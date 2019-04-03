@@ -51,19 +51,21 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 /* ====================== Navigation ====================== */
 nav {
+  display: flex;
   width: 100%;
-  height: 80px;
+  height: 4em;
   background-color: #252831;
-  text-align:center;
+  text-align: center;
 }
 nav h1 {
   margin: auto;
+  line-height: 1.3;
 }
 nav h1 a {
   color: #fff;
-  font-size: 14pt;
+  font-size: 0.8em;
   font-weight: 200;
-  letter-spacing: 10px;
+  letter-spacing: 0.5em;
   text-transform: uppercase;
 }
 #breadcrumb {
@@ -100,7 +102,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  height: 400px;
+  height: 70vh;
   width: 100%;
   background-color: #ccc;
 }
