@@ -135,21 +135,6 @@ nav h1 a {
   width: 100%;
 }
 
-/*  Sticky class added to the header with JS when it reaches 
-its scroll position 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
- Add some top padding to the page content to prevent sudden quick 
-movement (as the header gets a new position at the top of the 
-page (position:fixed and top:0) 
-.sticky + .filter-options {
-  padding-top: 1500px;
-} */
-
-
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
