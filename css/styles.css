@@ -111,6 +111,10 @@ nav h1 a {
   background-color: #3397DB;
   align-content: center;
   align-items: center;
+  /* Define position and top properties to create a "sticky" effect
+  keeping the filtering options menu at the page top */
+  position: sticky;
+  top: 0;
 }
 .filter-options h2 {
   color: white;
@@ -131,6 +135,21 @@ nav h1 a {
   width: 100%;
 }
 
+/*  Sticky class added to the header with JS when it reaches 
+its scroll position 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+ Add some top padding to the page content to prevent sudden quick 
+movement (as the header gets a new position at the top of the 
+page (position:fixed and top:0) 
+.sticky + .filter-options {
+  padding-top: 1500px;
+} */
+
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
@@ -145,7 +164,6 @@ nav h1 a {
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
-  font-family: Arial,sans-serif;
   margin: 0.9em;
   padding: 0 1.6em 1.2em;
   text-align: left;
@@ -174,7 +192,7 @@ nav h1 a {
   display: inline-block;
   font-size: 0.85em;
   margin: 1em 0 0;
-  padding: 8px 30px 10px;
+  padding: 0.5em 2.3em 0.5em;
   text-transform: uppercase;
 }
 
