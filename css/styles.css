@@ -99,6 +99,7 @@ nav h1 a {
   top: 62px;
   z-index: 10000;
   border-bottom: 1px solid black;
+  box-shadow: 0px 5px 2px 0px rgba(0, 0, 1, .2);
 }
 
 /* Display list items side by side */
@@ -141,6 +142,8 @@ nav h1 a {
   keeping the filtering options menu at the page top */
   position: sticky;
   top: 0;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 5px 2px 0px rgba(0, 0, 1, .2);
 }
 .filter-options h2 {
   color: white;
