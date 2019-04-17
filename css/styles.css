@@ -98,6 +98,7 @@ nav h1 a {
   position: sticky;
   top: 62px;
   z-index: 10000;
+  border-bottom: 1px solid black;
 }
 
 /* Display list items side by side */
@@ -174,7 +175,7 @@ nav h1 a {
 }
 #restaurants-list li {
   background-color: #fff;
-  border: 2px solid #ccc;
+  border: 1px solid black;
   margin: 0.9em 0.3em 0.9em 0.3em;
   padding: 0 1.6em 1.2em;
   text-align: left;
@@ -222,7 +223,6 @@ nav h1 a {
 .inside #map-container {
   height: 60vh;
   width: 100%;
-  border-bottom: 1px solid black;
   margin: auto;
 }
 
@@ -288,7 +288,8 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-  border: 2px solid #f3f3f3;
+  border: 1px solid black;
+  /* border-radius: 1%; */
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
