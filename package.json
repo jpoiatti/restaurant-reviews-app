@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-reviews-app",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpoiatti/restaurant-reviews-app.git"
+  },
+  "author": "https://github.com/jpoiatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpoiatti/restaurant-reviews-app/issues"
+  },
+  "homepage": "https://github.com/jpoiatti/restaurant-reviews-app#readme"
+}
