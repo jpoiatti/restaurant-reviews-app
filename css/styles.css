@@ -27,6 +27,7 @@ a:hover,
 a:focus {
   color: #3397db;
   text-decoration: none;
+  font-weight: bold;
 }
 img {
   max-width: 100%;
@@ -124,6 +125,8 @@ nav h1 a {
 #breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
+  text-decoration-style: dashed;
+  font-weight: normal;
 }
 /* ====================== Map ====================== */
 #map {
@@ -181,7 +184,7 @@ nav h1 a {
   border: 1px solid black;
   margin: 0.9em 0.3em 0.9em 0.3em;
   padding: 0 1.6em 1.2em;
-  text-align: left;
+  text-align: center;
   max-width: 90vw;
 }
 #restaurants-list .restaurant-img {
