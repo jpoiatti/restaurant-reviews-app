@@ -138,7 +138,7 @@ nav h1 a {
 .filter-options {
   display: flex;
   flex-flow: row wrap;
-  background-color: #3397db;
+  background-color: #15527A;
   align-content: center;
   align-items: center;
   /* Define position and top properties to create a "sticky" effect
