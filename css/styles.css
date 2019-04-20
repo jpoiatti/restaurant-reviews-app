@@ -27,6 +27,7 @@ a:hover,
 a:focus {
   color: #3397db;
   text-decoration: none;
+  font-weight: bold;
 }
 img {
   max-width: 100%;
@@ -63,7 +64,7 @@ section {
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #EBEBEB;
   font-size: 0.7em;
   letter-spacing: 1px;
   padding: 25px;
@@ -116,7 +117,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-  color: #0275d8;
+  color: #024988;
   text-decoration: none;
 }
 
@@ -124,6 +125,8 @@ nav h1 a {
 #breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
+  text-decoration-style: dashed;
+  font-weight: normal;
 }
 /* ====================== Map ====================== */
 #map {
@@ -135,7 +138,7 @@ nav h1 a {
 .filter-options {
   display: flex;
   flex-flow: row wrap;
-  background-color: #3397db;
+  background-color: #15527A;
   align-content: center;
   align-items: center;
   /* Define position and top properties to create a "sticky" effect
@@ -181,14 +184,14 @@ nav h1 a {
   border: 1px solid black;
   margin: 0.9em 0.3em 0.9em 0.3em;
   padding: 0 1.6em 1.2em;
-  text-align: left;
+  text-align: center;
   max-width: 90vw;
 }
 #restaurants-list .restaurant-img {
   height: auto;
 }
-#restaurants-list li h1 {
-  color: #f18200;
+#restaurants-list li h2 {
+  color: #7A4100;
   font-size: 1.2em;
   font-weight: 200;
   line-height: 1.3;
@@ -202,7 +205,7 @@ nav h1 a {
 #restaurants-list li a {
   background-color: orange;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: #1F1F1F;
   display: inline-block;
   font-size: 0.85em;
   margin: 1em 0 0;
@@ -238,7 +241,7 @@ nav h1 a {
 }
 
 #restaurant-name {
-  color: #f18200;
+  color: #7A4100;
   font-family: Arial, sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -279,7 +282,7 @@ nav h1 a {
   padding: 30px 40px 80px;
 }
 #reviews-container h2 {
-  color: #f58500;
+  color: #4D2A00;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
@@ -304,7 +307,7 @@ nav h1 a {
   margin: 0 0 10px;
 }
 #restaurant-hours td {
-  color: #666;
+  color: #363636;
 }
 
 /* ========= CSS medias - Medium and large screens ========= */
@@ -338,7 +341,7 @@ nav h1 a {
     max-width: 40vw;
   }
 
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     font-size: 1.35em;
     font-weight: 300;
   }
@@ -369,7 +372,7 @@ nav h1 a {
   #restaurants-list li {
     max-width: 30vw;
   }
-  h1#restaurant-name {
+  h2#restaurant-name {
     padding-top: 1em;
   }
 }
