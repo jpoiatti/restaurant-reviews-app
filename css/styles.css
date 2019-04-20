@@ -187,7 +187,7 @@ nav h1 a {
 #restaurants-list .restaurant-img {
   height: auto;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #7A4100;
   font-size: 1.2em;
   font-weight: 200;
@@ -338,7 +338,7 @@ nav h1 a {
     max-width: 40vw;
   }
 
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     font-size: 1.35em;
     font-weight: 300;
   }
@@ -369,7 +369,7 @@ nav h1 a {
   #restaurants-list li {
     max-width: 30vw;
   }
-  h1#restaurant-name {
+  h2#restaurant-name {
     padding-top: 1em;
   }
 }
