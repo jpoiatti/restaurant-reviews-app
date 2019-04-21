@@ -153,6 +153,9 @@ class DBHelper {
     return (`/img/${restaurant.photograph}`);
   }
 
+  /**
+   * Restaurant responsive images URLs and view widths.
+   */
   static responsiveImageUrlForRestaurant(restaurant) {
     let imageBaseName = restaurant.photograph.split('.')[0];
     let srcSet = `/img/${imageBaseName}/${imageBaseName}_400.jpg 400w, /img/${imageBaseName}/${imageBaseName}_600.jpg 600w, /img/${imageBaseName}/${imageBaseName}_800.jpg 800w`;
